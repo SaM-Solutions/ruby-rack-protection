@@ -1,0 +1,160 @@
+--- !ruby/object:Gem::Specification
+name: rack-protection
+version: !ruby/object:Gem::Version
+  version: 1.5.0
+  prerelease: 
+platform: ruby
+authors:
+- Konstantin Haase
+- Alex Rodionov
+- Chris Heald
+- Chris Mytton
+- Corey Ward
+- David Kellum
+- Egor Homakov
+- Florian Gilcher
+- Fojas
+- Mael Clerambault
+- Martin Mauch
+- SAKAI, Kazuaki
+- Stanislav Savulchik
+- Steve Agalloco
+- Akzhan Abdulin
+- TOBY
+- Bjørge Næss
+autorequire: 
+bindir: bin
+cert_chain: []
+date: 2013-03-13 00:00:00.000000000 Z
+dependencies:
+- !ruby/object:Gem::Dependency
+  name: rack
+  requirement: !ruby/object:Gem::Requirement
+    none: false
+    requirements:
+    - - ! '>='
+      - !ruby/object:Gem::Version
+        version: '0'
+  type: :runtime
+  prerelease: false
+  version_requirements: !ruby/object:Gem::Requirement
+    none: false
+    requirements:
+    - - ! '>='
+      - !ruby/object:Gem::Version
+        version: '0'
+- !ruby/object:Gem::Dependency
+  name: rack-test
+  requirement: !ruby/object:Gem::Requirement
+    none: false
+    requirements:
+    - - ! '>='
+      - !ruby/object:Gem::Version
+        version: '0'
+  type: :development
+  prerelease: false
+  version_requirements: !ruby/object:Gem::Requirement
+    none: false
+    requirements:
+    - - ! '>='
+      - !ruby/object:Gem::Version
+        version: '0'
+- !ruby/object:Gem::Dependency
+  name: rspec
+  requirement: !ruby/object:Gem::Requirement
+    none: false
+    requirements:
+    - - ~>
+      - !ruby/object:Gem::Version
+        version: '2.0'
+  type: :development
+  prerelease: false
+  version_requirements: !ruby/object:Gem::Requirement
+    none: false
+    requirements:
+    - - ~>
+      - !ruby/object:Gem::Version
+        version: '2.0'
+description: You should use protection!
+email:
+- konstantin.mailinglists@googlemail.com
+- p0deje@gmail.com
+- self@hecticjeff.net
+- coreyward@me.com
+- dek-oss@gravitext.com
+- homakov@gmail.com
+- florian.gilcher@asquera.de
+- developer@fojasaur.us
+- mael@clerambault.fr
+- martin.mauch@gmail.com
+- kaz.july.7@gmail.com
+- s.savulchik@gmail.com
+- steve.agalloco@gmail.com
+- akzhan.abdulin@gmail.com
+- toby.net.info.mail+git@gmail.com
+- bjoerge@bengler.no
+- cheald@gmail.com
+executables: []
+extensions: []
+extra_rdoc_files: []
+files:
+- License
+- README.md
+- Rakefile
+- lib/rack-protection.rb
+- lib/rack/protection.rb
+- lib/rack/protection/authenticity_token.rb
+- lib/rack/protection/base.rb
+- lib/rack/protection/escaped_params.rb
+- lib/rack/protection/form_token.rb
+- lib/rack/protection/frame_options.rb
+- lib/rack/protection/http_origin.rb
+- lib/rack/protection/ip_spoofing.rb
+- lib/rack/protection/json_csrf.rb
+- lib/rack/protection/path_traversal.rb
+- lib/rack/protection/remote_referrer.rb
+- lib/rack/protection/remote_token.rb
+- lib/rack/protection/session_hijacking.rb
+- lib/rack/protection/version.rb
+- lib/rack/protection/xss_header.rb
+- rack-protection.gemspec
+- spec/authenticity_token_spec.rb
+- spec/escaped_params_spec.rb
+- spec/form_token_spec.rb
+- spec/frame_options_spec.rb
+- spec/http_origin_spec.rb
+- spec/ip_spoofing_spec.rb
+- spec/json_csrf_spec.rb
+- spec/path_traversal_spec.rb
+- spec/protection_spec.rb
+- spec/remote_referrer_spec.rb
+- spec/remote_token_spec.rb
+- spec/session_hijacking_spec.rb
+- spec/spec_helper.rb
+- spec/xss_header_spec.rb
+homepage: http://github.com/rkh/rack-protection
+licenses: []
+post_install_message: 
+rdoc_options: []
+require_paths:
+- lib
+required_ruby_version: !ruby/object:Gem::Requirement
+  none: false
+  requirements:
+  - - ! '>='
+    - !ruby/object:Gem::Version
+      version: '0'
+required_rubygems_version: !ruby/object:Gem::Requirement
+  none: false
+  requirements:
+  - - ! '>='
+    - !ruby/object:Gem::Version
+      version: '0'
+requirements: []
+rubyforge_project: 
+rubygems_version: 1.8.23
+signing_key: 
+specification_version: 3
+summary: You should use protection!
+test_files: []
+has_rdoc: 
