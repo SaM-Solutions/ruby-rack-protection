@@ -1,0 +1,34 @@
+ruby-rack-protection (1.5.0-2) unstable; urgency=low
+
+  [ Jérémy Bobbio ]
+  * Team upload.
+  * Upload to unstable.
+  * Add git-buildpackage configuration.
+  * Bump gem2deb version in Build-Depends.
+  * Bump Standards-Version to 3.9.4, no changes required.
+
+  [ Cédric Boutillier ]
+  * debian/control: remove obsolete DM-Upload-Allowed flag.
+  * Use canonical URI in Vcs-* fields.
+  * debian/copyright: use DEP5 copyright-format/1.0 official URL for Format
+    field.
+
+ -- Jérémy Bobbio <lunar@debian.org>  Sun, 23 Jun 2013 19:01:08 +0200
+
+ruby-rack-protection (1.5.0-1) experimental; urgency=low
+
+  * Imported Upstream version 1.5.0
+
+ -- Youhei SASAKI <uwabami@gfd-dennou.org>  Mon, 01 Apr 2013 01:27:50 +0900
+
+ruby-rack-protection (1.3.2-1) experimental; urgency=low
+
+  * Imported Upstream version 1.3.2
+
+ -- Youhei SASAKI <uwabami@gfd-dennou.org>  Mon, 07 Jan 2013 22:12:16 +0900
+
+ruby-rack-protection (1.2.0-1) unstable; urgency=low
+
+    * Initial release (Closes: #665085)
+
+ -- Youhei SASAKI <uwabami@gfd-dennou.org>  Thu, 22 Mar 2012 21:07:41 +0900

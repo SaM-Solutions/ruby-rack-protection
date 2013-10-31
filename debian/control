@@ -1,0 +1,22 @@
+Source: ruby-rack-protection
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Youhei SASAKI <uwabami@gfd-dennou.org>
+Build-Depends: debhelper (>= 7.0.50~), gem2deb (>= 0.3), rake,
+ ruby-rspec, ruby-rack-test
+Standards-Version: 3.9.4
+Vcs-Git: git://anonscm.debian.org/pkg-ruby-extras/ruby-rack-protection.git
+Vcs-Browser: http://anonscm.debian.org/gitweb?p=pkg-ruby-extras/ruby-rack-protection.git;a=summary
+Homepage: http://github.com/rkh/rack-protection
+XS-Ruby-Versions: all
+
+Package: ruby-rack-protection
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter,
+ ruby-rack
+Description: Protects against typical web attacks for Rack apps
+ This library protects against typical web attacks. Should work for all
+ Rack apps, including Rails.
+
